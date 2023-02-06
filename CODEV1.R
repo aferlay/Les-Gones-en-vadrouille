@@ -6,8 +6,7 @@ names(r_colors) <- colors()
 
 ui <- fluidPage(
   leafletOutput("mymap"),
-  p(),
-  actionButton("recalc", "New points")
+ # 
 )
 
 server <- function(input, output, session) {
@@ -22,7 +21,7 @@ server <- function(input, output, session) {
                        options = providerTileOptions(noWrap = TRUE)
       ) %>%
       setView(lng= 4.85, lat = 45.75, zoom= 13)%>%
-      addMarkers(data = points())
+      addMarkers(lng = 4.85, lat = 45.75)
   })
 }
 
