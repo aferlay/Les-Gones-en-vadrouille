@@ -1,13 +1,38 @@
 install.packages("leaflet")
 
+#
+# This is a Shiny web application. You can run the application by clicking
+# the 'Run App' button above.
+#
+# Find out more about building applications with Shiny here:
+#
+#    http://shiny.rstudio.com/
+#
+
+library(shiny)
 library(leaflet)
 
-# Créer une carte centrée sur Paris
-carte_paris <- leaflet() %>%
-  setView(lng = 2.3522, lat = 48.8566, zoom = 13)
+# Define UI for application that draws a histogram
+ui <- fluidPage(
 
-# Ajouter un marqueur à la carte
-carte_paris %>% addMarkers(lng = 2.3522, lat = 48.8566)
+    # Application title
+  leafletOutput("Carte de Lyon"),
+  
+)
 
-# Afficher la carte
-carte_paris
+# Define server logic required to draw a histogram
+server <- function(input, output) {
+
+    output$carte_Lyon <- renderleaflet({
+      leaflet() %>%
+        setView(lng = 4.85, lat = 45.75, zoom = 13)%>%
+      
+      # Ajouter un marqueur à la carte
+        addMarkers(lng = 4.85, lat = 45.75)
+      
+    })
+}
+
+# Run the application 
+shinyApp(ui = ui, server = server)
+
