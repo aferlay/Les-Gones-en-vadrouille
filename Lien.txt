@@ -1,0 +1,9 @@
+
+Comment utiliser Leaflet:
+https://thinkr.fr/cartographie-interactive-comment-visualiser-mes-donnees-spatiales-de-maniere-dynamique-avec-leaflet/
+https://rstudio.github.io/leaflet/shiny.html
+
+
+
+Données de Lyon:
+https://data.grandlyon.com/
