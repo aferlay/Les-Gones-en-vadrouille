@@ -6,7 +6,7 @@ git push \
 La prochaine fois, pas besoin de refaire git clone, tu fais juste git pull
 
 ## Commandes pour se déplacer dasn des dossier
-cd C:/mettre/le/lien/vers/le/repertoire/de/travail #changer de repertoire
-cd .. #revenir en arrière dans le répertoire
+cd C:/mettre/le/lien/vers/le/repertoire/de/travail #changer de repertoire \
+cd .. #revenir en arrière dans le répertoire \
 mkd NomRepertoire #pour créer un nouveau dossier
 
