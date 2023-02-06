@@ -1,0 +1,13 @@
+install.packages("leaflet")
+
+library(leaflet)
+
+# Créer une carte centrée sur Paris
+carte_paris <- leaflet() %>%
+  setView(lng = 2.3522, lat = 48.8566, zoom = 13)
+
+# Ajouter un marqueur à la carte
+carte_paris %>% addMarkers(lng = 2.3522, lat = 48.8566)
+
+# Afficher la carte
+carte_paris
