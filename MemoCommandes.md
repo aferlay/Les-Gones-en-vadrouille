@@ -1,6 +1,6 @@
 ## Les commandes pour extraire et envoyer ses modifs sur GitHub
 git clone lien repertoire github \
-git add "Nom fichiers modifiés.extension" \
+git add "Nom fichiers modifiés.extension" OU git add . pour envoyer tous les fichiers \
 git commit -m "Nom du commit" \
 git push \
 La prochaine fois, pas besoin de refaire git clone, tu fais juste git pull
