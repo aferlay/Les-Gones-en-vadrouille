@@ -1,6 +1,6 @@
 # Bienvenu dans le repository du Groupe 3
 
-Membres : `Larissa AMARRAL BOA SORTE,Anthony BREYNE-PIC, Marie DURIEUX, Micheal FASTENACKELS, Alexandre FERLAY, Théo LEBRUN, Pierre LESUEUR, Camille ROULLIN,Marion SBARRA, Inna YEFIMENKO, NOUBANGUE Rubenne`
+Membres : `Larissa AMARRAL BOA SORTE,Anthony BREYNE-PIC, Marie DURIEUX, Michael FASTENACKELS, Alexandre FERLAY, Théo LEBRUN, Pierre LESUEUR, Camille ROULLIN,Marion SBARRA, Inna YEFIMENKO, NOUBANGUE Rubenne`
 
 # Objectif
 Notre objectif est de créer une carte interactive de Lyon.\
