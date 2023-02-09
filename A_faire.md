@@ -1,0 +1,7 @@
+- Trouver un exemple de bouton qui peut renvoyer vers un autre onglet du même Shiny
+- Rendre lisible le code dans l'ui comme dans les exemples Notre Dame de Fourvière et Musée de l'Illusion, et corriger les fautes.
+- Ajouter une photo pour chaque monument
+- Ajouter une icone de type de monument pour chaque point de la carte à la place du truc bleu
+- Ajouter des liens vers les pages de reservation de ticket ou autre
+- Séparer les fichiers possibles en plusieurs fichiers .R et faire référence à eux grâce à source()$value
+- à completer ...
