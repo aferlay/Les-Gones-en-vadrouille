@@ -4,4 +4,6 @@
 - Ajouter une icone de type de monument pour chaque point de la carte à la place du truc bleu > MARIE s'en occupe
 - Ajouter des liens vers les pages de reservation de ticket ou autre > THEO l'a fait
 - Ajouter la page "Bienvenu" de Inna > PIERRE s'en charge
+- séparer bienvenue et questionnaire
+- résoudre le problème de la disparition de la carte
 - à completer ...
