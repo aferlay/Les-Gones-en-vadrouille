@@ -1,5 +1,0 @@
-list(
-  mainPanel(
-    p("bonjour")
-  )
-)
