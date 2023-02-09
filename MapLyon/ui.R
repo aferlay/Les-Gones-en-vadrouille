@@ -1,12 +1,12 @@
 ##################################################  Gp 3
 ##########_Carte avec les points en Shiny_########  
-##################################################  R - Shiny
+#####################__UI__#######################  R - Shiny
 
 
 library(shiny)
 library(leaflet)
 
-ui <- fluidPage(
+fluidPage(
   navbarPage(
     "Navigation bar",
     #### PAGE D'ACCUEIL ####
