@@ -4,6 +4,9 @@
 
 library(shiny)
 library(leaflet)
+library(shiny.fluent)
+library(shinydashboard)
+library(shinyWidgets)
 
 fluidPage(
   navbarPage(

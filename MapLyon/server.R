@@ -4,6 +4,9 @@
 
 library(shiny)
 library(leaflet)
+library(shiny.fluent)
+library(shinydashboard)
+library(shinyWidgets)
 
 monumentIcons <-iconList(
   museeicone <- makeIcon(iconUrl= "Images/icone_musee.png", iconWidth = 20 , iconHeight = 20),
@@ -28,6 +31,16 @@ function(input, output) {
     Carte <- addMarkers(Carte, lng=4.821866 , lat=45.762361 , popup="Basilique de Fourvière", icon = egliseicone)
     Carte
   })
+  
+  observeEvent(input$Button, {
+    output$TextOutput <- renderText("X")
+  })
+  
+  output$sentence <- renderText({
+    paste(input$name,
+          ", on vous propose de répondre à quelques questions. Ça ne prend pas beaucoup de temps ( ◡‿◡ *).")}) 
+  
+  output$text_choice <- renderPrint({
+    return(paste0("Accesss is allowed :",input$checkGroup1))
+  })
 }
-
-#shinyApp(ui = ui, server = server)
