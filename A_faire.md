@@ -3,6 +3,5 @@
 - Ajouter une photo pour chaque monument > LARISSA est sur le coup
 - Ajouter une icone de type de monument pour chaque point de la carte à la place du truc bleu > MARIE s'en occupe
 - Ajouter des liens vers les pages de reservation de ticket ou autre > THEO l'a fait
-- Séparer les fichiers possibles en plusieurs fichiers .R et faire référence à eux grâce à source()$value
 - Ajouter la page "Bienvenu" de Inna > PIERRE s'en charge
 - à completer ...
