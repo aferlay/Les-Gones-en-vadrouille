@@ -19,7 +19,7 @@ ui <- fluidPage(
   
   fluidRow(column(12,
                   align = "center",
-                  em(tags$h6("Alexandre, Anthony, Camille, Inna, Larissa, Marie, Marion, Michael, Pierre, Théo, Vianny")))),
+                  em(tags$h6("Alexandre, Anthony, Camille, Inna, Larissa, Marie, Marion, Michael, Pierre, Rubenne, Théo")))),
   
   
   
@@ -41,7 +41,7 @@ ui <- fluidPage(
             
   fluidRow(column(8,
                   align = "left",
-                  strong(tags$h4("     - Online consultation,")))),
+                  strong(tags$h4("     - Conseil des lieux à visiter,")))),
   
   fluidRow(column(8,
                   align = "left",
@@ -59,7 +59,7 @@ ui <- fluidPage(
   
   fluidRow(column(12,
                   align = "center",
-                  em(tags$h6("Je peux vous aider à choisir les endroits à visiter selon vos exigences et votre disponibilité temporel")))),
+                  em(tags$h6("Je peux vous aider à choisir les endroits à visiter selon vos exigences et votre disponibilité")))),
   
   fluidRow(column(12,
                   align = "center",
@@ -67,14 +67,14 @@ ui <- fluidPage(
   
   fluidRow(column(12,
                   align = "center",
-                  em(tags$h6("(づ¯ 3¯)づ pour se présenter et faire connaissance.")))),
+                  em(tags$h6("Je vous propose un questionnaire pour mieux vous connaitre.")))),
   
   
   #NAME
   fluidRow( textInput
             (inputId = "name",
-              label = "Quel est votre nom ? ",
-              placeholder = "First name"),
+              label = "Quel est votre prénom ? ",
+              placeholder = "Prénom"),
            align = "center"),
   
   
@@ -93,7 +93,7 @@ ui <- fluidPage(
   #N_DAYS
   fluidRow(checkboxGroupInput("checkGroup2", 
                               label = h5("Pour combien de jours serez-vous à Lyon ?"), 
-                              choices = list("le week-end" = 1, 
+                              choices = list("un week-end" = 1, 
                                              "4 jours" = 2, 
                                              "une semaine" = 3,
                                              "~14 jours" = 4),
@@ -106,8 +106,8 @@ ui <- fluidPage(
   fluidRow(checkboxGroupInput
            ("checkGroup3",
              label = h5("Quel type de touriste êtes-vous ?"),
-             choices = list("Domestic Tourism (trips in your own country)",
-                            "Outbound Tourism (travelling to a different country)"),
+             choices = list("Touriste domestique (voyage dans votre propre pays)",
+                            "Touriste à l'étranger (voyage dans un autre pays)"),
              ),
            align = "center"),
   
@@ -119,8 +119,9 @@ ui <- fluidPage(
   fluidRow(checkboxGroupInput
            ("checkGroup4",
              label = h5("Votre type de transport :"),
-             choices = list("voiture privée",
-                            "transport public"),
+             choices = list("voiture",
+                            "transport public",
+                            "marche à pied"),
              ),
            align = "center"),
   
@@ -130,17 +131,14 @@ ui <- fluidPage(
   fluidRow(checkboxGroupInput
            ("checkGroup5",
              label = h5("Vos intérêts et objectifs touristiques :"),
-             choices = list("gastro-tourism",
-                            "cultural tourism",
-                            "leisure travel (includes travel for holidays, cultural events)"),
+             choices = list("découvrire la gastronomie",
+                            "découvrir la culture",
+                            "voyage de loisir"),
            ),
            align = "center"),
   
   fluidRow(column(3, verbatimTextOutput("text_choice"))),
-  
-  
 
-  
   setBackgroundImage(
     src = "https://www.publicdomainpictures.net/pictures/440000/velka/blank-paper-background-16430205722ly.jpg") 
   
@@ -160,12 +158,6 @@ server <- function(input, output, session) {
   output$text_choice <- renderPrint({
     return(paste0("Accesss is allowed :",input$checkGroup1))
     })
-  
-  
-  
-  
-  
-  
   
 }
 
