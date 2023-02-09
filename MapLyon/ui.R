@@ -10,7 +10,7 @@ fluidPage(
   navbarPage(
     "Navigation bar",
     #### PAGE D'ACCUEIL ####
-    tabPanel("Bienvenu",
+    tabPanel("Bienvenue",
              #rajouter ici les éléments de code de l'onglet Bienvenu
     ),
     #### CARTE ####
@@ -32,8 +32,8 @@ fluidPage(
                              à la ville pendant la peste de 1849. Le bâtiment a une 
                              architecture néogothique unique et est considéré comme 
                              l’un des plus beaux monuments religieux de France. Il 
-                             est également célébre pour son panorama sur la ville de
-                             Lyon et les Alpes. Environ 4 millions de personnes visitent
+                             est également célèbre pour son panorama sur la ville de
+                             Lyon et les Alpes. Environ quatre millions de personnes visitent
                              Notre-Dame de Fourvière chaque année, ce qui en fait l’un 
                              des sites touristiques les plus populaires de la région
                              lyonnaise. De plus, le nombre de visiteurs est en continuelle
@@ -41,8 +41,8 @@ fluidPage(
                         )
                ),
                ##### Illusion #####
-               tabPanel("Musée de l’Illusion",
-                        HTML("Le Musée des Illusions de l'illusion a été fondé en 2020 
+               tabPanel("Musée de l’illusion",
+                        HTML("Le Musée des illusions a été fondé en 2020 
                         en tant que musée interactif et ludique consacré à l'art des 
                         illusions d optique et des expériences sensorielles pour les 
                         visiteurs de tous âges.Situé dans le centre de Lyon, il présente 
@@ -58,13 +58,27 @@ fluidPage(
                ),
                ##### Halles #####
                tabPanel("Halles Paul Bocuse",
-                        HTML('Les Halles Paul Bocuse sont un marché couvert situé à Lyon. Ils ont été créés en 1859 et portent le nom du célèbre chef cuisinier Paul Bocuse. Les Halles sont considérées comme l un des plus grands et des plus anciens marchés couverts de France, offrant une variété de produits alimentaires frais tels que des fruits et des légumes, des viandes, du poisson et des fromages. Les Halles sont également connues pour leur atmosphère animée et leur architecture unique, avec leur plafond en fer forgé et leurs murs en pierre. Elles sont considérées comme un lieu emblématique pour les gourmets et les amateurs de cuisine à Lyon. Les Halles reçoivent environ 1 million de visiteurs par an et ont connu une popularité croissante au fil des ans en raison de leur renommée internationale et de leur rôle en tant que source d’ingrédients de qualité pour les chefs du monde entier.'
+                        HTML('Les Halles Paul Bocuse sont un marché couvert situé à Lyon. 
+                              Elles ont été créées en 1859 et portent le nom du célèbre chef cuisinier Paul Bocuse.
+                              Les Halles sont considérées comme un des plus grands et des plus anciens marchés couverts de France, 
+                              offrant une variété de produits alimentaires frais tels que des fruits et légumes, des viandes, du poisson et des fromages. 
+                              Les Halles sont également connues pour leur atmosphère animée et leur architecture unique, 
+                              avec leur plafond en fer forgé et leurs murs en pierre. 
+                              Elles sont considérées comme un lieu emblématique pour les gourmets et les amateurs de cuisine à Lyon. 
+                              Les Halles reçoivent environ un million de visiteurs par an et ont connu une popularité croissante au fil des ans 
+                              en raison de leur renommée internationale et de leur rôle en tant que source d’ingrédients de qualité pour les chefs du monde entier.'
                         )
                ),
                ##### Saint-Jean #####
-               tabPanel("Saint-Jean",
-                        HTML('La Cathédrale Saint-Jean de Lyon est une cathédrale gothique située dans le centre-ville de Lyon. Elle a été construite entre le XIIIe et le XVe siècle et est considérée comme l une des plus grandes et des plus belles cathédrales gothiques de France.
-La cathédrale est célèbre pour ses vitraux magnifiques, ses sculptures en pierre et ses nombreux autels et chapiteaux ornés. Elle est également connue pour son clocher imposant, qui offre une vue panoramique sur la ville de Lyon. La cathédrale Saint Jean est considérée comme un site touristique important à Lyon et est fréquenté par environ 500 000 visiteurs chaque année. Ce nombre continue d’augmenter en raison de son intérêt historique et de son importance architecturale. La cathédrale est également un lieu de culte actif pour la communauté catholique de Lyon.
+               tabPanel(" Cathédrale Saint-Jean",
+                        HTML('La Cathédrale Saint-Jean de Lyon est une cathédrale gothique située dans le centre-ville de Lyon. 
+                              Elle a été construite entre le XIIIe et le XVe siècle et est considérée comme l une des plus grandes 
+                              et des plus belles cathédrales gothiques de France.
+                              La cathédrale est célèbre pour ses vitraux magnifiques, ses sculptures en pierre et ses nombreux autels et chapiteaux ornés. 
+                              Elle est également connue pour son clocher imposant, qui offre une vue panoramique sur la ville de Lyon. 
+                              La cathédrale Saint Jean est considérée comme un site touristique important à Lyon et est fréquenté par environ 500 000 visiteurs 
+                              chaque année. Ce nombre continue d’augmenter en raison de son intérêt historique et de son importance architecturale. 
+                              La cathédrale est également un lieu de culte actif pour la communauté catholique de Lyon.
 '
                         )
                ),
