@@ -1,12 +1,12 @@
 # Bienvenue dans le repository du Groupe 3
 
-Membres : `Larissa AMARRAL BOA SORTE,Anthony BREYNE-PIC, Marie DURIEUX, Michael FASTENACKELS, Alexandre FERLAY, Théo LEBRUN, Pierre LESUEUR, Camille ROULLIN,Marion SBARRA, Inna YEFIMENKO, NOUBANGUE Rubenne`
 
-# Objectif
+
+## Objectif
 Notre objectif est de créer une carte interactive de Lyon.\
 À partir d'une interface Shiny, nous souhaitons pouvoir cliquer sur des points d'intérêt de Lyon et avoir leur nom et un descriptif associé.
 
-# Etat d'avancement 
+## Etat d'avancement 
 Notre carte avec certains des points et leurs noms correspondants est créée.\
 Les points manquants et les descriptifs sont ajoutés.\
 Nous avons fait en sorte que tout apparaisse correctement sur Shiny.\
