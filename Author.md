@@ -1,4 +1,4 @@
-# List of the 11 authors of the "Gones en vadrouille"'s project :
+# List of the 11 authors of the _Gones en vadrouille_'s project :
 AMARRAL BOA SORTE Larissa,\
 BREYNE-PIC Anthony,\
 DURIEUX Marie,\  
