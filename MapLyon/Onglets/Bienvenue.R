@@ -6,7 +6,7 @@ list(
                   em(tags$h6("Alexandre, Anthony, Camille, Inna, Larissa, 
                              Marie, Marion, Michael, Pierre, Rubenne, Théo")))),
   fluidRow(column(12,align = "center",
-                  em(tags$h3("Ancienne capitale des Gaules, Lyon est devenue une ville avec un patrimoine historique, culturel, gastronomique et architectural très riche. 
+                  em(tags$h4("Ancienne capitale des Gaules, Lyon est devenue une ville avec un patrimoine historique, culturel, gastronomique et architectural très riche. 
                              Du Moyen Age, à la Renaissance jusqu'à aujourd'hui, la ville s'est étendue le long de ses rives.
                              Ainsi, de nombreux vestiges de différentes époques ornent notre territoire.
                              De l'histoire, de l'art, du fun sont également disponibles dans les différents espaces culturels.
