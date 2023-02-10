@@ -4,9 +4,18 @@ list(
                   strong(tags$h1("Web-Guide Touristique")),
                   em(tags$h6("Ce Guide est créé par notre équipe OPEN :")),
                   em(tags$h6("Alexandre, Anthony, Camille, Inna, Larissa, 
-                             Marie, Marion, Michael, Pierre, Rubenne, Théo"))
-  )))
- 
+                             Marie, Marion, Michael, Pierre, Rubenne, Théo")))),
+  fluidRow(column(12,align = "center",
+                  em(tags$h3("Ancienne capitale des Gaules, Lyon est devenue une ville avec un patrimoine historique, culturel, gastronomique et architectural très riche. 
+                             Du Moyen Age, à la Renaissance jusqu'à aujourd'hui, la ville s'est étendue le long de ses rives.
+                             Ainsi, de nombreux vestiges de différentes époques ornent notre territoire.
+                             De l'histoire, de l'art, du fun sont également disponibles dans les différents espaces culturels.
+                             Mais surtout, Lyon est la capitale mondiale de la Gastronomie, de quoi faire revêr les plus gourmand.
+                             Notre site a donc pour objectif de vous proposer les meilleurs programmes pour visiter notre belle ville,
+                             et tout ça, en s'adaptant à vos attentes."))))
+  )
+          
+                 
  #titlePanel(
   # img(src="https://www.actualitix.com/wp-content/uploads/2016/12/carte-lyon.png",
      #  align = "left",
