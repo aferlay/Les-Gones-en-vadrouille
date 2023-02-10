@@ -14,3 +14,4 @@ Nous avons également créé une page d'accueil. \
 Sur la page, tout est organisé en onglets et sous onglets. \
 Le code dans l'UI a été réduit au maximum afin de conserver de la lisibilité, le reste est transféré dans des sous fichiers.R \
 Les points ont désormais une icone leur correspondant.\
+Les popup de la carte peuvent envoyer vers sa description.
